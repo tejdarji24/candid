@@ -1,0 +1,95 @@
+.photography-block {
+    .full-image {
+        img {
+            @apply object-cover object-bottom w-full;
+            max-height: 670px;
+        }
+    }
+    .photography-detail {
+        flex: 912px 0 0;
+        img {
+            max-width: 120px;
+        }
+        p {
+            @apply text-16;
+            line-height: 30px !important;
+        }
+    }
+    .know-me {
+        flex: 1 0 0%;
+    }
+}
+.multi-photos-main {
+    .left-col {
+        img {
+            width: 100%;
+            max-height: 960px;
+            object-fit: cover;
+        }
+    } 
+    .right-col {
+        flex: 1 0 0%;
+        margin-right: calc(-50vw + 50%);
+    }
+    .photo-info {
+        width: 522px;
+    }
+    .top-col {
+        img {
+            height: 270px;
+            width: 100%;
+            margin: 0 auto;
+            object-fit: cover;
+        }
+        .photo-info {
+            width: 456px;
+            margin: 0 auto;
+        }   
+    }
+    .bottom-col {
+        img {
+            max-height: 314px;
+        }
+        .info-col {
+            @apply relative;
+            &::before {
+                content: '';
+                width: 85rem;
+                z-index: -1;
+                left: calc(-50vw + 50%);
+                @apply absolute top-0 bottom-0 bg-millbrook;
+            }
+        }
+    }
+}
+.epic-elopement-block {
+    .epic-info {
+        p {
+            line-height: 30px !important;
+        }
+    }
+    .left-col {
+        flex: 850px 0 0;
+    }
+    .right-col {
+        flex: 1 0 0%;
+    }
+}
+.wedding-photo-block {
+    h5 {
+        max-width: clamp(35rem, 5vw, 50rem);
+    }
+    p {
+        max-width: clamp(34rem, 5vw, 50rem);
+        line-height: 35px !important;
+    }
+}
+.instagram-block {
+    .insta-photos {
+        img {
+            width: 255px;
+            height: 255px;
+            object-fit: cover;
+        }
+    }
+}

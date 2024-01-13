@@ -1,0 +1,64 @@
+ul,
+ol {
+  @apply m-0 p-0 list-none;
+}
+
+dl {
+  @apply m-0;
+}
+
+dt {
+  @apply m-0 font-semibold;
+}
+
+dd {
+  @apply m-0;
+  margin: 0;
+}
+
+li::marker {
+  display: none;
+  opacity: 0;
+  color: transparent;
+  font-size: 0;
+}
+
+.site-main {
+  ul {
+    @apply p-0 my-30 mx-0;
+    li {
+      @apply relative pl-25 mb-15 list-none last:mb-0;
+      &:before {
+        @apply absolute left-0 top-0;
+        content: "\f178";
+        font-family: 'Font Awesome 6 Free Solid';
+      }
+      a {
+        text-decoration: none;
+        // @apply text-red hover:text-green;
+      }
+      ul {
+        @apply p-0 mt-20 mb-30 mx-0;
+      }
+    }
+  }
+  ol {
+    @apply list-decimal my-30 mx-0 p-0;
+    counter-reset: li-counter;
+    li {
+      @apply relative pl-30 mb-15 list-none last:mb-0;
+      &:before {
+        // @apply text-green absolute top-0 inline-block left-0;
+        content: counter(li-counter) ".";
+        counter-increment: li-counter;
+      }
+      a {
+        // @apply text-red hover:text-green;
+        text-decoration: none;
+      }
+      ol {
+        @apply mt-20 mx-0 mb-30;
+      }
+    }
+  }
+}

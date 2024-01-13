@@ -1,0 +1,6 @@
+.site-btn {
+    @apply relative transition-all py-15 px-45 inline-block bg-millbrook text-white uppercase;
+    &:hover {
+        @apply transition-all;
+    }
+}

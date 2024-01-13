@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/fontawesome/fa-brands-400.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/fontawesome/fa-regular-400.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../fonts/fontawesome/fa-solid-900.woff2") format("woff2");
+}
+
+.fas,
+.fa-solid {
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/worksans/WorkSans-Regular.woff2") format("woff2"),
+        url("../fonts/worksans/WorkSans-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: block;
+    src: url("../fonts/worksans/WorkSans-SemiBold.woff2") format("woff2"),
+        url("../fonts/worksans/WorkSans-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url("../fonts/worksans/WorkSans-Bold.woff2") format("woff2"),
+        url("../fonts/worksans/WorkSans-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 100;
+    font-display: block;
+    src: url("../fonts/worksans/WorkSans-Light.woff2") format("woff2"),
+        url("../fonts/worksans/WorkSans-Light.woff") format("woff");
+}
+@font-face {
+    font-family: 'WorkSans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: block;
+    src: url("../fonts/worksans/WorkSans-Medium.woff2") format("woff2"),
+        url("../fonts/worksans/WorkSans-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: 'KumelienPro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/kumlienpro/Kumlien-Regular.woff2") format("woff2"),
+        url("../fonts/kumlienpro/Kumlien-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: 'AntroVectra';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/antrovectra/Antro-Vectra.woff2") format("woff2"),
+        url("../fonts/antrovectra/Antro-Vectra.woff") format("woff");
+}

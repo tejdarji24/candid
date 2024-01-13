@@ -1,0 +1,18 @@
+.site-footer {
+    .footer-content {
+        img {
+            max-width: 40px;
+            margin: 0 auto;
+        }
+    }
+    .footer-title {
+        p {
+            @apply text-black;
+        }
+    }
+    .footer-desc {
+        p {
+            @apply text-16;
+        }
+    }
+}

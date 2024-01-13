@@ -1,0 +1,8 @@
+.site-header {
+    .site-logo {
+        img {
+            @apply object-cover mx-auto;
+            max-width: 288px;
+        }
+    }
+}

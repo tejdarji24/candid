@@ -1,0 +1,23 @@
+.featured-block {
+    .gallery-col {
+        @apply flex flex-col h-full;
+    }
+    .gallery-info {
+        @apply bg-greige relative py-50 px-30 -mt-20 mx-20 flex flex-wrap h-full justify-center text-center;
+        .title {
+            @apply text-28 uppercase mb-25;
+        }
+        a {
+            @apply uppercase text-16;
+            letter-spacing: 2px;
+        }
+    }
+    .featured-head {
+        .title {
+            @apply font-worksans text-18 uppercase;
+            span {
+                @apply font-antrovectra text-48 normal-case mr-10;
+            }
+        }
+    }
+}

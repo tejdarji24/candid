@@ -1,0 +1,140 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html {
+  box-sizing: border-box;
+  @apply overflow-x-hidden;
+}
+body {
+  @apply m-0 p-0 text-18 text-black-russian overflow-x-hidden bg-light-grayish-orange font-worksans;
+}
+// .lg-container {
+//   @apply mx-auto pl-15 pr-15;
+//   max-width: 1400px;
+// }
+.container {
+  max-width: 1400px;
+  @apply px-20 m-auto;
+}
+
+h1,
+.h1 {
+  @apply text-84 lg:text-72 mx:text-64;
+}
+
+h2,
+.h2 {
+  @apply text-72 lg:text-68 mx:text-54;
+}
+
+h3,
+.h3 {
+  @apply text-60 lg:text-56 mx:text-48;
+}
+
+h4,
+.h4 {
+  @apply text-52 lg:text-48 mx:text-40;
+}
+
+h5,
+.h5 {
+  @apply text-48 lg:text-40 mx:text-38;
+}
+
+h6,
+.h6 {
+  @apply text-32 lg:text-28 mx:text-18;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  @apply text-black-russian font-kumelienpro;
+}
+
+b,
+strong {
+  @apply font-bold;
+}
+
+p {
+  @apply pb-0 mb-20 last:mb-0 empty:hidden;
+}
+
+a {
+  @apply text-black-russian transition-all;
+  text-decoration: none;
+}
+
+img {
+  @apply max-w-full;
+  height: auto;
+}
+
+::selection {
+  @apply bg-light-grayish-orange text-white;
+}
+::-moz-selection {
+  @apply bg-light-grayish-orange text-white;
+}
+
+.full-width-layout {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.left-move-column {
+  margin-left: calc(-50vw + 50%);
+}
+
+.right-move-column {
+  margin-right: calc(-50vw + 50%);
+}
+
+.grid-left-move-column {
+  margin-left: calc(-50vw + 50%);
+  width: 50vw;
+}
+
+.grid-right-move-column {
+  margin-right: calc(-50vw + 50%);
+  width: 50vw;
+}
+
+.left-col-move {
+  margin-left: calc(-50vw + 100%);
+}
+
+.left-move{
+  margin-left: calc(-50vw + 585px);
+  @screen lg {
+    margin-left: 0;
+  }
+}
+
+.right-move{
+  margin-right: calc(-50vw + 585px);
+  @media(max-width: 1200px){
+    margin-right: 0;
+  }
+}
+
+.hidden-slick-arrow .slick-slider .slick-prev,
+.hidden-slick-arrow .slick-slider .slick-next {
+  @apply hidden #{!important};
+}
